@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: lance-cv
+  namespace: lance-cv
+  annotations:
+    kubernetes.io/ingress.class: traefik
+spec:
+  ingressClassName: traefik
+  tls:
+    - hosts:
+        - cv.example.com
+      secretName: lance-cv-tls
+  rules:
+    - host: cv.example.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: lance-cv
+                port:
+                  number: 80

@@ -1,0 +1,411 @@
+{
+  "languageName": "English",
+  "languageOptions": {
+    "en": "English",
+    "zh": "中文"
+  },
+  "aria": {
+    "profileControls": "Profile controls",
+    "selectCvVersion": "Select CV version",
+    "selectColorTheme": "Select color theme",
+    "selectLanguage": "Select language",
+    "pageSections": "Page sections",
+    "contactLinks": "Contact links",
+    "stackLabel": "{title} technology stack"
+  },
+  "controls": {
+    "profileView": "Profile view",
+    "theme": "Theme",
+    "language": "Language",
+    "themeOptions": {
+      "system": "system",
+      "light": "light",
+      "dark": "dark"
+    }
+  },
+  "actions": {
+    "skipToContent": "Skip to content",
+    "downloadPdf": "Download {label} PDF",
+    "printPage": "Print page",
+    "contact": "Contact Lance",
+    "linkedInProfile": "LinkedIn profile",
+    "linkedIn": "LinkedIn",
+    "profilePdf": "{label} PDF"
+  },
+  "sections": {
+    "nav": {
+      "summary": "Summary",
+      "skills": "Skills",
+      "highlights": "Highlights",
+      "experience": "Experience",
+      "education": "Education"
+    },
+    "summary": {
+      "kicker": "Profile overview",
+      "title": "Delivery range with recruiter-ready positioning",
+      "description": "{currentLabel} keeps the same career history but shifts the emphasis of the story. {alternateLabel} is available from the toggle whenever you need a different framing.",
+      "asideLabel": "Active emphasis"
+    },
+    "skills": {
+      "kicker": "Technical coverage",
+      "title": "Modern delivery across product, platform, and operations",
+      "description": "The site keeps the skills taxonomy close to the markdown source so updates stay predictable, while the presentation turns each group into a quick scan for hiring managers."
+    },
+    "highlights": {
+      "kicker": "Selected work",
+      "title": "Project highlights distilled from delivery history",
+      "description": "These cards are intentionally curated rather than auto-generated so the public site surfaces the strongest outcomes without making the experience section repetitive."
+    },
+    "experience": {
+      "kicker": "Career path",
+      "title": "Chronological experience with platform depth",
+      "description": "The timeline keeps the original chronology intact while giving each role enough breathing room for architecture, scale, and delivery context."
+    },
+    "education": {
+      "kicker": "Education",
+      "title": "Formal foundation",
+      "description": "A concise education section keeps the resume focused on delivery history while preserving the academic context recruiters expect."
+    },
+    "deployment": {
+      "kicker": "Deployment fit",
+      "title": "Static-first delivery for a cluster-friendly resume",
+      "description": "The React implementation is intentionally static so it can be shipped as plain assets inside a small container and promoted cleanly to k3s.",
+      "paragraphs": [
+        "The app keeps state in the URL and local storage only, which means there is no server-side session dependency and no runtime database requirement for cluster deployment.",
+        "Static PDF assets are mapped to the active version, so the public site can act as both a live profile and a download point for recruiter workflows."
+      ]
+    }
+  },
+  "footer": {
+    "identity": "{name} · {location}"
+  },
+  "profiles": {
+    "a": {
+      "label": "Version A",
+      "focus": "Solution architecture, delivery leadership, and platform execution",
+      "name": "Lance Zheng",
+      "role": "Solution Architect / Senior Software Engineer / Technical Lead",
+      "location": "Singapore",
+      "email": "lance@delazzaro.de",
+      "linkedin": "https://www.linkedin.com/in/lance-zheng",
+      "summary": "Solution Architect / Senior Software Engineer / Technical Lead with 13+ years of experience designing and delivering web, mobile, and cloud platforms. Strong background in system architecture, technical leadership, CI/CD, platform engineering, and scalable business applications.",
+      "intro": "Version A is the baseline executive profile. It emphasizes architecture, technical leadership, and practical delivery across product, platform, and operations work without leaning too heavily on any single trend.",
+      "positioning": "This framing works well when the audience is hiring for solution architecture, senior engineering leadership, or broad full-stack ownership across business-critical systems.",
+      "emphasisTitle": "Executive technical profile",
+      "emphasisBody": "A recruiter-friendly framing for architecture and delivery roles, with the AI-specific workflow language kept in the background.",
+      "metrics": [
+        { "label": "Experience", "value": "13+ years" },
+        { "label": "Coverage", "value": "Web, mobile, cloud" },
+        { "label": "Base", "value": "Singapore" }
+      ],
+      "strengths": [
+        "Solution architecture and system design",
+        "Technical leadership and scrum delivery",
+        "Full-stack and mobile engineering",
+        "CI/CD and platform automation",
+        "Cloud and distributed systems",
+        "API and system integration",
+        "Scalable and maintainable business systems",
+        "Cross-functional communication and execution"
+      ],
+      "skillGroups": [
+        { "title": "Backend", "items": ["C#", "Java", "Node.js", "Python", "Go"] },
+        { "title": "Frontend", "items": ["Angular", "React", "JavaScript"] },
+        { "title": "Mobile", "items": ["Flutter", "Android SDK", "Ionic"] },
+        {
+          "title": "Databases / Data Platforms",
+          "items": ["MS SQL", "Oracle", "MongoDB", "Elasticsearch", "InfluxDB", "Redis"]
+        },
+        {
+          "title": "Cloud / Platform / DevOps",
+          "items": ["AWS", "Azure", "GitLab", "Kubernetes", "Helm", "Terraform"]
+        },
+        {
+          "title": "Machine Learning / AI Exposure",
+          "items": ["TensorFlow", "NVIDIA NeMo", "Kubeflow", "OpenCV", "Darknet YOLO"]
+        }
+      ],
+      "highlights": [
+        {
+          "title": "Workforce Operations Platform Delivery",
+          "company": "Certis Cisco",
+          "period": "2022 - Present",
+          "summary": "Led frontend and cross-functional delivery for cloud platform services and a workforce operations platform spanning Angular, Flutter, Java, Kotlin, and C#.",
+          "outcome": "Balanced architecture direction with execution planning so platform decisions translated into reliable team delivery.",
+          "stack": ["Angular", "Flutter", "Java", "Kotlin", "C#"]
+        },
+        {
+          "title": "Cloud CI/CD and Platform Automation",
+          "company": "Certis Cisco",
+          "period": "2019 - Present",
+          "summary": "Designed and implemented AWS and Azure deployment pipelines with GitLab, Kubernetes, Helm, and Terraform.",
+          "outcome": "Improved deployment automation, release consistency, and operational scalability across cloud services.",
+          "stack": ["AWS", "Azure", "GitLab", "Kubernetes", "Helm", "Terraform"]
+        },
+        {
+          "title": "Higher-Education B2B Cloud Services",
+          "company": "Timecruiser Computing Corp.",
+          "period": "2014 - 2018",
+          "summary": "Built microservice-based B2B cloud services for higher education in the U.S. and enterprise training platforms in China.",
+          "outcome": "Supported 10K+ concurrent users with less than 0.1% downtime across three data centers.",
+          "stack": ["Microservices", "Cloud Services", "Scrum Delivery", "Platform Reliability"]
+        },
+        {
+          "title": "Android Financial Trading Platform",
+          "company": "Mitake Information Corp.",
+          "period": "2011 - 2014",
+          "summary": "Contributed to large-scale Android financial applications, including a stock trading app with more than one million active users.",
+          "outcome": "Helped support a product that reached over 80% market share among brokers.",
+          "stack": ["Android SDK", "Mobile Architecture", "Financial Systems"]
+        }
+      ],
+      "experience": [
+        {
+          "company": "Certis Cisco",
+          "location": "Singapore",
+          "title": "Frontend Lead & Technical Consultant",
+          "period": "Jan 2022 - Present",
+          "bullets": [
+            "Lead frontend and cross-functional technical delivery for cloud platform services and a workforce operations management platform, working across Angular, Flutter, Java, Kotlin, and C#.",
+            "Designed and implemented CI/CD pipelines on AWS and Azure using GitLab, Kubernetes, Helm, and Terraform to improve deployment automation, scalability, and development workflow efficiency.",
+            "Provided technical leadership in frontend architecture, implementation planning, and scrum-based execution to align delivery with platform and business needs.",
+            "Contributed to engineering workflow improvements through structured development practices, reusable guidance, and delivery automation."
+          ]
+        },
+        {
+          "company": "Certis Cisco",
+          "location": "Singapore",
+          "title": "Solutions Architect",
+          "period": "Mar 2019 - Jan 2022",
+          "bullets": [
+            "Designed cloud solutions for workforce operations using IoT, robotics, machine learning, backend services, and mobile applications across Node.js, Python, Go, Angular, React, MongoDB, MQTT, ROS, Flutter, and Android SDK.",
+            "Built CI/CD pipelines and supported server clustering and platform automation using Kubernetes, Helm, and Terraform to improve deployment reliability and operational scalability.",
+            "Participated in AIOps pipeline design and development using Kubeflow on Kubernetes together with tools and frameworks such as OpenCV and Darknet YOLO.",
+            "Worked across architecture, implementation, and platform delivery to translate emerging technical capabilities into practical business solutions."
+          ]
+        },
+        {
+          "company": "Timecruiser Computing Corp.",
+          "location": "Taiwan",
+          "title": "Senior Backend Developer & Tech Lead",
+          "period": "Oct 2014 - Dec 2018",
+          "bullets": [
+            "Built B2B cloud services for higher education in the U.S. and enterprise training platforms in China using microservices architecture.",
+            "Supported workloads serving 10K+ concurrent users with less than 0.1% downtime across three data centers in the U.S., Taiwan, and China.",
+            "Led development activities in scrum-based teams and contributed to architecture, backend services, and platform reliability."
+          ]
+        },
+        {
+          "company": "Mitake Information Corp.",
+          "location": "Taiwan",
+          "title": "Software Engineer",
+          "period": "Nov 2011 - Oct 2014",
+          "bullets": [
+            "Contributed to Android mobile apps in the financial domain, including a stock trading app with over 1 million active users and more than 80% market share among brokers.",
+            "Worked on core software architecture and native Android application development in a large-scale production environment."
+          ]
+        },
+        {
+          "company": "Galaxy Software Service Corp.",
+          "location": "Taiwan",
+          "title": "Program Analysis",
+          "period": "Aug 2010 - Sep 2011",
+          "bullets": [
+            "Contributed to product development and maintenance for knowledge management systems, web services, and mobile applications.",
+            "Worked primarily with C#, MS SQL, Elasticsearch, and IIS."
+          ]
+        },
+        {
+          "company": "Muchtel Technology Inc.",
+          "location": "Taiwan",
+          "title": "Software Engineer",
+          "period": "Mar 2009 - Aug 2010",
+          "bullets": [
+            "Built mobile applications, web backend services, and management platforms for a digital marketplace and app store service.",
+            "Integrated payment workflows with PayPal and telecom billing systems."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Huafan University",
+          "location": "New Taipei City, Taiwan",
+          "degree": "Bachelor, Management Information Systems",
+          "period": "2003 - 2007"
+        }
+      ],
+      "pdfPath": "/cv/version_a.pdf"
+    },
+    "b": {
+      "label": "Version B",
+      "focus": "Architecture leadership with AI-assisted engineering workflow emphasis",
+      "name": "Lance Zheng",
+      "role": "Solution Architect / Senior Software Engineer / Technical Lead",
+      "location": "Singapore",
+      "email": "lance@delazzaro.de",
+      "linkedin": "https://www.linkedin.com/in/lance-zheng",
+      "summary": "Solution Architect / Senior Software Engineer / Technical Lead with 13+ years of experience designing and delivering web, mobile, and cloud platforms. Strong background in system architecture, technical leadership, CI/CD, platform engineering, scalable business applications, and AI-assisted development workflows.",
+      "intro": "Version B keeps the same delivery history but brings AI-assisted engineering, repository-native guidance, and developer productivity automation to the front of the story.",
+      "positioning": "This framing is better suited to teams that want senior engineers who can combine architecture leadership with emerging workflow design, automation, and practical guardrails around AI usage.",
+      "emphasisTitle": "AI-enabled delivery profile",
+      "emphasisBody": "A sharper narrative for organizations that value structured AI workflows, reusable engineering guidance, and developer productivity improvements alongside core architecture work.",
+      "metrics": [
+        { "label": "Experience", "value": "13+ years" },
+        { "label": "Workflow", "value": "AI-assisted delivery" },
+        { "label": "Scale", "value": "10K+ concurrency" }
+      ],
+      "strengths": [
+        "Solution architecture and system design",
+        "Technical leadership and scrum delivery",
+        "Full-stack and mobile engineering",
+        "CI/CD and platform automation",
+        "Cloud and distributed systems",
+        "API and system integration",
+        "Scalable and maintainable business systems",
+        "Cross-functional communication and execution",
+        "AI-assisted engineering workflows",
+        "Developer productivity automation"
+      ],
+      "skillGroups": [
+        { "title": "Backend", "items": ["C#", "Java", "Node.js", "Python", "Go"] },
+        { "title": "Frontend", "items": ["Angular", "React", "JavaScript"] },
+        { "title": "Mobile", "items": ["Flutter", "Android SDK", "Ionic"] },
+        {
+          "title": "Databases / Data Platforms",
+          "items": ["MS SQL", "Oracle", "MongoDB", "Elasticsearch", "InfluxDB", "Redis"]
+        },
+        {
+          "title": "Cloud / Platform / DevOps",
+          "items": ["AWS", "Azure", "GitLab", "Kubernetes", "Helm", "Terraform"]
+        },
+        {
+          "title": "AI Engineering / Developer Productivity",
+          "items": [
+            "Repository-native AI guidance",
+            "Reusable agent workflows",
+            "Custom instructions",
+            "Structured task execution",
+            "Prompt/spec engineering",
+            "AI workflow evaluation"
+          ]
+        },
+        {
+          "title": "Machine Learning / AI Exposure",
+          "items": ["TensorFlow", "NVIDIA NeMo", "Kubeflow", "OpenCV", "Darknet YOLO"]
+        }
+      ],
+      "highlights": [
+        {
+          "title": "Repository-Native AI Guidance",
+          "company": "Certis Cisco",
+          "period": "2022 - Present",
+          "summary": "Designed reusable AI guidance and agent workflow patterns that support implementation, validation, and documentation tasks inside the engineering workflow.",
+          "outcome": "Improved consistency, reduced ambiguity, and accelerated day-to-day delivery without dropping project-specific conventions.",
+          "stack": ["AI Guidance", "Workflow Design", "Prompting", "Engineering Standards"]
+        },
+        {
+          "title": "Cloud CI/CD and Platform Automation",
+          "company": "Certis Cisco",
+          "period": "2019 - Present",
+          "summary": "Designed and implemented AWS and Azure pipelines with GitLab, Kubernetes, Helm, and Terraform for workforce operations platforms.",
+          "outcome": "Created a stronger bridge between architecture intent, delivery automation, and production reliability.",
+          "stack": ["AWS", "Azure", "GitLab", "Kubernetes", "Helm", "Terraform"]
+        },
+        {
+          "title": "AIOps and Applied ML Pipeline Work",
+          "company": "Certis Cisco",
+          "period": "2019 - 2022",
+          "summary": "Participated in AIOps pipeline design and development using Kubeflow on Kubernetes together with OpenCV and Darknet YOLO.",
+          "outcome": "Helped connect emerging ML capabilities with practical operational platform delivery.",
+          "stack": ["Kubeflow", "Kubernetes", "OpenCV", "Darknet YOLO"]
+        },
+        {
+          "title": "Higher-Education B2B Cloud Services",
+          "company": "Timecruiser Computing Corp.",
+          "period": "2014 - 2018",
+          "summary": "Built microservice-based B2B cloud services for higher education and enterprise training in multiple regions.",
+          "outcome": "Sustained 10K+ concurrent users with less than 0.1% downtime across three data centers.",
+          "stack": ["Microservices", "Cloud Services", "Platform Reliability", "Scrum Delivery"]
+        }
+      ],
+      "experience": [
+        {
+          "company": "Certis Cisco",
+          "location": "Singapore",
+          "title": "Frontend Lead & Technical Consultant",
+          "period": "Jan 2022 - Present",
+          "bullets": [
+            "Lead frontend and cross-functional technical delivery for cloud platform services and a workforce operations management platform, working across Angular, Flutter, Java, Kotlin, and C#.",
+            "Designed and implemented CI/CD pipelines on AWS and Azure using GitLab, Kubernetes, Helm, and Terraform to improve deployment automation, scalability, and development workflow efficiency.",
+            "Provided technical leadership in frontend architecture, implementation planning, and scrum-based execution to align delivery with platform and business needs.",
+            "Designed repository-native AI guidance and reusable agent workflows to support engineering tasks such as implementation, validation, and documentation.",
+            "Applied AI-assisted development practices to improve consistency, reduce ambiguity, and accelerate day-to-day software delivery while preserving project-specific conventions and guardrails."
+          ]
+        },
+        {
+          "company": "Certis Cisco",
+          "location": "Singapore",
+          "title": "Solutions Architect",
+          "period": "Mar 2019 - Jan 2022",
+          "bullets": [
+            "Designed cloud solutions for workforce operations using IoT, robotics, machine learning, backend services, and mobile applications across Node.js, Python, Go, Angular, React, MongoDB, MQTT, ROS, Flutter, and Android SDK.",
+            "Built CI/CD pipelines and supported server clustering and platform automation using Kubernetes, Helm, and Terraform to improve deployment reliability and operational scalability.",
+            "Participated in AIOps pipeline design and development using Kubeflow on Kubernetes together with tools and frameworks such as OpenCV and Darknet YOLO.",
+            "Worked across architecture, implementation, and platform delivery to translate emerging technical capabilities into practical business solutions.",
+            "Explored and applied AI/ML-enabled workflow design in operational platforms, helping bridge architecture decisions with practical implementation and delivery needs."
+          ]
+        },
+        {
+          "company": "Timecruiser Computing Corp.",
+          "location": "Taiwan",
+          "title": "Senior Backend Developer & Tech Lead",
+          "period": "Oct 2014 - Dec 2018",
+          "bullets": [
+            "Built B2B cloud services for higher education in the U.S. and enterprise training platforms in China using microservices architecture.",
+            "Supported workloads serving 10K+ concurrent users with less than 0.1% downtime across three data centers in the U.S., Taiwan, and China.",
+            "Led development activities in scrum-based teams and contributed to architecture, backend services, and platform reliability."
+          ]
+        },
+        {
+          "company": "Mitake Information Corp.",
+          "location": "Taiwan",
+          "title": "Software Engineer",
+          "period": "Nov 2011 - Oct 2014",
+          "bullets": [
+            "Contributed to Android mobile apps in the financial domain, including a stock trading app with over 1 million active users and more than 80% market share among brokers.",
+            "Worked on core software architecture and native Android application development in a large-scale production environment."
+          ]
+        },
+        {
+          "company": "Galaxy Software Service Corp.",
+          "location": "Taiwan",
+          "title": "Program Analysis",
+          "period": "Aug 2010 - Sep 2011",
+          "bullets": [
+            "Contributed to product development and maintenance for knowledge management systems, web services, and mobile applications.",
+            "Worked primarily with C#, MS SQL, Elasticsearch, and IIS."
+          ]
+        },
+        {
+          "company": "Muchtel Technology Inc.",
+          "location": "Taiwan",
+          "title": "Software Engineer",
+          "period": "Mar 2009 - Aug 2010",
+          "bullets": [
+            "Built mobile applications, web backend services, and management platforms for a digital marketplace and app store service.",
+            "Integrated payment workflows with PayPal and telecom billing systems."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Huafan University",
+          "location": "New Taipei City, Taiwan",
+          "degree": "Bachelor, Management Information Systems",
+          "period": "2003 - 2007"
+        }
+      ],
+      "pdfPath": "/cv/version_b.pdf"
+    }
+  }
+}

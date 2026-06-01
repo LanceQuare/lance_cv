@@ -1,0 +1,411 @@
+{
+  "languageName": "中文",
+  "languageOptions": {
+    "en": "English",
+    "zh": "中文"
+  },
+  "aria": {
+    "profileControls": "个人资料控制",
+    "selectCvVersion": "选择简历版本",
+    "selectColorTheme": "选择颜色主题",
+    "selectLanguage": "选择语言",
+    "pageSections": "页面章节",
+    "contactLinks": "联系方式链接",
+    "stackLabel": "{title} 技术栈"
+  },
+  "controls": {
+    "profileView": "资料版本",
+    "theme": "主题",
+    "language": "语言",
+    "themeOptions": {
+      "system": "跟随系统",
+      "light": "浅色",
+      "dark": "深色"
+    }
+  },
+  "actions": {
+    "skipToContent": "跳到主要内容",
+    "downloadPdf": "下载 {label} PDF",
+    "printPage": "打印页面",
+    "contact": "联系 Lance",
+    "linkedInProfile": "LinkedIn 个人资料",
+    "linkedIn": "LinkedIn",
+    "profilePdf": "{label} PDF"
+  },
+  "sections": {
+    "nav": {
+      "summary": "概览",
+      "skills": "技能",
+      "highlights": "亮点",
+      "experience": "经历",
+      "education": "教育"
+    },
+    "summary": {
+      "kicker": "个人概览",
+      "title": "覆盖交付全链路，并具备招聘场景友好的定位",
+      "description": "{currentLabel} 保留相同的职业经历，但调整叙事重点。需要不同定位时，可通过切换按钮查看 {alternateLabel}。",
+      "asideLabel": "当前重点"
+    },
+    "skills": {
+      "kicker": "技术覆盖",
+      "title": "覆盖产品、平台与运营场景的现代交付能力",
+      "description": "网站让技能分类贴近 Markdown 简历源内容，便于后续更新保持可预测；展示层则把每组技能整理成方便招聘经理快速浏览的结构。"
+    },
+    "highlights": {
+      "kicker": "精选工作",
+      "title": "从交付经历中提炼出的项目亮点",
+      "description": "这些卡片经过刻意筛选，而不是自动生成，因此公开网站可以突出最有价值的成果，同时避免与经历章节重复。"
+    },
+    "experience": {
+      "kicker": "职业路径",
+      "title": "按时间顺序呈现，并突出平台深度",
+      "description": "时间线保留原始职业顺序，同时为每个岗位提供足够空间呈现架构、规模与交付背景。"
+    },
+    "education": {
+      "kicker": "教育背景",
+      "title": "正式教育基础",
+      "description": "简洁的教育章节让简历重点保持在交付经历上，同时保留招聘人员期望看到的学历背景。"
+    },
+    "deployment": {
+      "kicker": "部署适配",
+      "title": "面向集群部署的静态优先简历",
+      "description": "React 实现有意保持静态化，因此可以作为普通静态资源放入小型容器，并顺畅发布到 k3s。",
+      "paragraphs": [
+        "应用只把状态保存在 URL 和本地存储中，因此没有服务端会话依赖，也不需要运行时数据库即可部署到集群。",
+        "静态 PDF 资源会映射到当前版本，因此公开网站既可以作为在线个人资料，也可以作为招聘流程中的简历下载入口。"
+      ]
+    }
+  },
+  "footer": {
+    "identity": "{name} · {location}"
+  },
+  "profiles": {
+    "a": {
+      "label": "版本 A",
+      "focus": "解决方案架构、交付领导力与平台执行",
+      "name": "Lance Zheng",
+      "role": "解决方案架构师 / 高级软件工程师 / 技术负责人",
+      "location": "新加坡",
+      "email": "lance@delazzaro.de",
+      "linkedin": "https://www.linkedin.com/in/lance-zheng",
+      "summary": "解决方案架构师 / 高级软件工程师 / 技术负责人，拥有 13 年以上设计和交付 Web、移动端与云平台的经验。具备系统架构、技术领导力、CI/CD、平台工程以及可扩展业务应用方面的扎实背景。",
+      "intro": "版本 A 是基础的管理层友好个人资料。它强调架构、技术领导力，以及跨产品、平台和运营工作的务实交付能力，同时避免过度偏向单一趋势。",
+      "positioning": "当目标岗位关注解决方案架构、高级工程领导力，或业务关键系统的广泛全栈所有权时，这种表述更适合。",
+      "emphasisTitle": "管理层友好的技术履历",
+      "emphasisBody": "面向招聘人员的架构与交付岗位表达方式，把 AI 相关工作流语言放在较轻的位置。",
+      "metrics": [
+        { "label": "经验", "value": "13 年以上" },
+        { "label": "覆盖", "value": "Web、移动端、云" },
+        { "label": "所在地", "value": "新加坡" }
+      ],
+      "strengths": [
+        "解决方案架构与系统设计",
+        "技术领导力与 Scrum 交付",
+        "全栈与移动端工程",
+        "CI/CD 与平台自动化",
+        "云与分布式系统",
+        "API 与系统集成",
+        "可扩展、可维护的业务系统",
+        "跨职能沟通与执行"
+      ],
+      "skillGroups": [
+        { "title": "后端", "items": ["C#", "Java", "Node.js", "Python", "Go"] },
+        { "title": "前端", "items": ["Angular", "React", "JavaScript"] },
+        { "title": "移动端", "items": ["Flutter", "Android SDK", "Ionic"] },
+        {
+          "title": "数据库 / 数据平台",
+          "items": ["MS SQL", "Oracle", "MongoDB", "Elasticsearch", "InfluxDB", "Redis"]
+        },
+        {
+          "title": "云 / 平台 / DevOps",
+          "items": ["AWS", "Azure", "GitLab", "Kubernetes", "Helm", "Terraform"]
+        },
+        {
+          "title": "机器学习 / AI 接触经验",
+          "items": ["TensorFlow", "NVIDIA NeMo", "Kubeflow", "OpenCV", "Darknet YOLO"]
+        }
+      ],
+      "highlights": [
+        {
+          "title": "劳动力运营平台交付",
+          "company": "Certis Cisco",
+          "period": "2022 - 至今",
+          "summary": "负责云平台服务和劳动力运营平台的前端与跨职能交付，技术范围涵盖 Angular、Flutter、Java、Kotlin 和 C#。",
+          "outcome": "在架构方向与执行规划之间取得平衡，让平台决策转化为可靠的团队交付。",
+          "stack": ["Angular", "Flutter", "Java", "Kotlin", "C#"]
+        },
+        {
+          "title": "云端 CI/CD 与平台自动化",
+          "company": "Certis Cisco",
+          "period": "2019 - 至今",
+          "summary": "使用 GitLab、Kubernetes、Helm 和 Terraform 设计并实现 AWS 与 Azure 部署流水线。",
+          "outcome": "提升了跨云服务的部署自动化、发布一致性与运营可扩展性。",
+          "stack": ["AWS", "Azure", "GitLab", "Kubernetes", "Helm", "Terraform"]
+        },
+        {
+          "title": "高等教育 B2B 云服务",
+          "company": "Timecruiser Computing Corp.",
+          "period": "2014 - 2018",
+          "summary": "为美国高等教育和中国企业培训平台构建基于微服务的 B2B 云服务。",
+          "outcome": "支持 1 万以上并发用户，并在三个数据中心维持低于 0.1% 的停机率。",
+          "stack": ["Microservices", "Cloud Services", "Scrum Delivery", "Platform Reliability"]
+        },
+        {
+          "title": "Android 金融交易平台",
+          "company": "Mitake Information Corp.",
+          "period": "2011 - 2014",
+          "summary": "参与大规模 Android 金融应用开发，包括拥有超过 100 万活跃用户的股票交易应用。",
+          "outcome": "协助支持该产品在券商市场达到超过 80% 的市场占有率。",
+          "stack": ["Android SDK", "Mobile Architecture", "Financial Systems"]
+        }
+      ],
+      "experience": [
+        {
+          "company": "Certis Cisco",
+          "location": "新加坡",
+          "title": "前端负责人兼技术顾问",
+          "period": "2022 年 1 月 - 至今",
+          "bullets": [
+            "负责云平台服务和劳动力运营管理平台的前端与跨职能技术交付，工作范围涵盖 Angular、Flutter、Java、Kotlin 和 C#。",
+            "使用 GitLab、Kubernetes、Helm 和 Terraform 在 AWS 与 Azure 上设计并实现 CI/CD 流水线，提升部署自动化、可扩展性和开发工作流效率。",
+            "在前端架构、实施规划和基于 Scrum 的执行中提供技术领导力，使交付与平台及业务需求保持一致。",
+            "通过结构化开发实践、可复用指导和交付自动化，推动工程工作流改进。"
+          ]
+        },
+        {
+          "company": "Certis Cisco",
+          "location": "新加坡",
+          "title": "解决方案架构师",
+          "period": "2019 年 3 月 - 2022 年 1 月",
+          "bullets": [
+            "为劳动力运营设计云解决方案，涵盖 IoT、机器人、机器学习、后端服务和移动应用，技术包括 Node.js、Python、Go、Angular、React、MongoDB、MQTT、ROS、Flutter 和 Android SDK。",
+            "使用 Kubernetes、Helm 和 Terraform 构建 CI/CD 流水线，并支持服务器集群与平台自动化，以提升部署可靠性和运营可扩展性。",
+            "参与基于 Kubernetes 的 Kubeflow AIOps 流水线设计与开发，并结合 OpenCV、Darknet YOLO 等工具和框架。",
+            "跨架构、实施与平台交付协作，把新兴技术能力转化为实际业务解决方案。"
+          ]
+        },
+        {
+          "company": "Timecruiser Computing Corp.",
+          "location": "台湾",
+          "title": "高级后端开发者兼技术负责人",
+          "period": "2014 年 10 月 - 2018 年 12 月",
+          "bullets": [
+            "使用微服务架构，为美国高等教育和中国企业培训平台构建 B2B 云服务。",
+            "支持服务 1 万以上并发用户的工作负载，并在美国、台湾和中国三个数据中心维持低于 0.1% 的停机率。",
+            "领导基于 Scrum 团队的开发活动，并参与架构、后端服务和平台可靠性建设。"
+          ]
+        },
+        {
+          "company": "Mitake Information Corp.",
+          "location": "台湾",
+          "title": "软件工程师",
+          "period": "2011 年 11 月 - 2014 年 10 月",
+          "bullets": [
+            "参与金融领域 Android 移动应用开发，包括一款拥有超过 100 万活跃用户、在券商中超过 80% 市占率的股票交易应用。",
+            "在大规模生产环境中参与核心软件架构和原生 Android 应用开发。"
+          ]
+        },
+        {
+          "company": "Galaxy Software Service Corp.",
+          "location": "台湾",
+          "title": "程序分析师",
+          "period": "2010 年 8 月 - 2011 年 9 月",
+          "bullets": [
+            "参与知识管理系统、Web 服务和移动应用的产品开发与维护。",
+            "主要使用 C#、MS SQL、Elasticsearch 和 IIS。"
+          ]
+        },
+        {
+          "company": "Muchtel Technology Inc.",
+          "location": "台湾",
+          "title": "软件工程师",
+          "period": "2009 年 3 月 - 2010 年 8 月",
+          "bullets": [
+            "为数字市场和应用商店服务构建移动应用、Web 后端服务和管理平台。",
+            "集成 PayPal 和电信计费系统的支付流程。"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "华梵大学",
+          "location": "台湾新北市",
+          "degree": "学士，资讯管理",
+          "period": "2003 - 2007"
+        }
+      ],
+      "pdfPath": "/cv/version_a.pdf"
+    },
+    "b": {
+      "label": "版本 B",
+      "focus": "以 AI 辅助工程工作流为重点的架构领导力",
+      "name": "Lance Zheng",
+      "role": "解决方案架构师 / 高级软件工程师 / 技术负责人",
+      "location": "新加坡",
+      "email": "lance@delazzaro.de",
+      "linkedin": "https://www.linkedin.com/in/lance-zheng",
+      "summary": "解决方案架构师 / 高级软件工程师 / 技术负责人，拥有 13 年以上设计和交付 Web、移动端与云平台的经验。具备系统架构、技术领导力、CI/CD、平台工程、可扩展业务应用以及 AI 辅助开发工作流方面的扎实背景。",
+      "intro": "版本 B 保留相同的交付经历，但把 AI 辅助工程、面向仓库的指导和开发者生产力自动化放到叙事前台。",
+      "positioning": "这种表述更适合希望高级工程师同时具备架构领导力、新兴工作流设计、自动化能力，以及围绕 AI 使用建立务实防护栏的团队。",
+      "emphasisTitle": "AI 赋能的交付履历",
+      "emphasisBody": "面向重视结构化 AI 工作流、可复用工程指导，以及在核心架构能力之外提升开发者生产力的组织。",
+      "metrics": [
+        { "label": "经验", "value": "13 年以上" },
+        { "label": "工作流", "value": "AI 辅助交付" },
+        { "label": "规模", "value": "1 万以上并发" }
+      ],
+      "strengths": [
+        "解决方案架构与系统设计",
+        "技术领导力与 Scrum 交付",
+        "全栈与移动端工程",
+        "CI/CD 与平台自动化",
+        "云与分布式系统",
+        "API 与系统集成",
+        "可扩展、可维护的业务系统",
+        "跨职能沟通与执行",
+        "AI 辅助工程工作流",
+        "开发者生产力自动化"
+      ],
+      "skillGroups": [
+        { "title": "后端", "items": ["C#", "Java", "Node.js", "Python", "Go"] },
+        { "title": "前端", "items": ["Angular", "React", "JavaScript"] },
+        { "title": "移动端", "items": ["Flutter", "Android SDK", "Ionic"] },
+        {
+          "title": "数据库 / 数据平台",
+          "items": ["MS SQL", "Oracle", "MongoDB", "Elasticsearch", "InfluxDB", "Redis"]
+        },
+        {
+          "title": "云 / 平台 / DevOps",
+          "items": ["AWS", "Azure", "GitLab", "Kubernetes", "Helm", "Terraform"]
+        },
+        {
+          "title": "AI 工程 / 开发者生产力",
+          "items": [
+            "面向仓库的 AI 指导",
+            "可复用智能体工作流",
+            "自定义指令",
+            "结构化任务执行",
+            "提示词 / 规格工程",
+            "AI 工作流评估"
+          ]
+        },
+        {
+          "title": "机器学习 / AI 接触经验",
+          "items": ["TensorFlow", "NVIDIA NeMo", "Kubeflow", "OpenCV", "Darknet YOLO"]
+        }
+      ],
+      "highlights": [
+        {
+          "title": "面向仓库的 AI 指导",
+          "company": "Certis Cisco",
+          "period": "2022 - 至今",
+          "summary": "设计可复用的 AI 指导和智能体工作流模式，用于在工程流程中支持实施、验证和文档任务。",
+          "outcome": "提升一致性、减少歧义，并在不丢失项目特定约定的前提下加速日常交付。",
+          "stack": ["AI Guidance", "Workflow Design", "Prompting", "Engineering Standards"]
+        },
+        {
+          "title": "云端 CI/CD 与平台自动化",
+          "company": "Certis Cisco",
+          "period": "2019 - 至今",
+          "summary": "使用 GitLab、Kubernetes、Helm 和 Terraform，为劳动力运营平台设计并实现 AWS 与 Azure 流水线。",
+          "outcome": "在架构意图、交付自动化与生产可靠性之间建立更强连接。",
+          "stack": ["AWS", "Azure", "GitLab", "Kubernetes", "Helm", "Terraform"]
+        },
+        {
+          "title": "AIOps 与应用机器学习流水线工作",
+          "company": "Certis Cisco",
+          "period": "2019 - 2022",
+          "summary": "参与基于 Kubernetes 的 Kubeflow AIOps 流水线设计与开发，并结合 OpenCV 和 Darknet YOLO。",
+          "outcome": "协助把新兴机器学习能力与实际运营平台交付连接起来。",
+          "stack": ["Kubeflow", "Kubernetes", "OpenCV", "Darknet YOLO"]
+        },
+        {
+          "title": "高等教育 B2B 云服务",
+          "company": "Timecruiser Computing Corp.",
+          "period": "2014 - 2018",
+          "summary": "为多个地区的高等教育和企业培训构建基于微服务的 B2B 云服务。",
+          "outcome": "在三个数据中心稳定支持 1 万以上并发用户，并维持低于 0.1% 的停机率。",
+          "stack": ["Microservices", "Cloud Services", "Platform Reliability", "Scrum Delivery"]
+        }
+      ],
+      "experience": [
+        {
+          "company": "Certis Cisco",
+          "location": "新加坡",
+          "title": "前端负责人兼技术顾问",
+          "period": "2022 年 1 月 - 至今",
+          "bullets": [
+            "负责云平台服务和劳动力运营管理平台的前端与跨职能技术交付，工作范围涵盖 Angular、Flutter、Java、Kotlin 和 C#。",
+            "使用 GitLab、Kubernetes、Helm 和 Terraform 在 AWS 与 Azure 上设计并实现 CI/CD 流水线，提升部署自动化、可扩展性和开发工作流效率。",
+            "在前端架构、实施规划和基于 Scrum 的执行中提供技术领导力，使交付与平台及业务需求保持一致。",
+            "设计面向仓库的 AI 指导和可复用智能体工作流，用于支持实施、验证和文档等工程任务。",
+            "应用 AI 辅助开发实践，在保留项目特定约定和防护栏的同时提升一致性、减少歧义并加速日常软件交付。"
+          ]
+        },
+        {
+          "company": "Certis Cisco",
+          "location": "新加坡",
+          "title": "解决方案架构师",
+          "period": "2019 年 3 月 - 2022 年 1 月",
+          "bullets": [
+            "为劳动力运营设计云解决方案，涵盖 IoT、机器人、机器学习、后端服务和移动应用，技术包括 Node.js、Python、Go、Angular、React、MongoDB、MQTT、ROS、Flutter 和 Android SDK。",
+            "使用 Kubernetes、Helm 和 Terraform 构建 CI/CD 流水线，并支持服务器集群与平台自动化，以提升部署可靠性和运营可扩展性。",
+            "参与基于 Kubernetes 的 Kubeflow AIOps 流水线设计与开发，并结合 OpenCV、Darknet YOLO 等工具和框架。",
+            "跨架构、实施与平台交付协作，把新兴技术能力转化为实际业务解决方案。",
+            "探索并应用 AI/ML 赋能的运营平台工作流设计，协助连接架构决策与实际实施及交付需求。"
+          ]
+        },
+        {
+          "company": "Timecruiser Computing Corp.",
+          "location": "台湾",
+          "title": "高级后端开发者兼技术负责人",
+          "period": "2014 年 10 月 - 2018 年 12 月",
+          "bullets": [
+            "使用微服务架构，为美国高等教育和中国企业培训平台构建 B2B 云服务。",
+            "支持服务 1 万以上并发用户的工作负载，并在美国、台湾和中国三个数据中心维持低于 0.1% 的停机率。",
+            "领导基于 Scrum 团队的开发活动，并参与架构、后端服务和平台可靠性建设。"
+          ]
+        },
+        {
+          "company": "Mitake Information Corp.",
+          "location": "台湾",
+          "title": "软件工程师",
+          "period": "2011 年 11 月 - 2014 年 10 月",
+          "bullets": [
+            "参与金融领域 Android 移动应用开发，包括一款拥有超过 100 万活跃用户、在券商中超过 80% 市占率的股票交易应用。",
+            "在大规模生产环境中参与核心软件架构和原生 Android 应用开发。"
+          ]
+        },
+        {
+          "company": "Galaxy Software Service Corp.",
+          "location": "台湾",
+          "title": "程序分析师",
+          "period": "2010 年 8 月 - 2011 年 9 月",
+          "bullets": [
+            "参与知识管理系统、Web 服务和移动应用的产品开发与维护。",
+            "主要使用 C#、MS SQL、Elasticsearch 和 IIS。"
+          ]
+        },
+        {
+          "company": "Muchtel Technology Inc.",
+          "location": "台湾",
+          "title": "软件工程师",
+          "period": "2009 年 3 月 - 2010 年 8 月",
+          "bullets": [
+            "为数字市场和应用商店服务构建移动应用、Web 后端服务和管理平台。",
+            "集成 PayPal 和电信计费系统的支付流程。"
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "华梵大学",
+          "location": "台湾新北市",
+          "degree": "学士，资讯管理",
+          "period": "2003 - 2007"
+        }
+      ],
+      "pdfPath": "/cv/version_b.pdf"
+    }
+  }
+}
