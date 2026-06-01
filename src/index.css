@@ -133,14 +133,14 @@ select {
 }
 
 .hero-panel__row {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(18rem, 20rem);
   gap: 2rem;
   align-items: flex-start;
-  flex-wrap: wrap;
 }
 
 .hero-panel__headline {
+  min-width: 0;
   max-width: 44rem;
 }
 
@@ -189,7 +189,9 @@ h1 {
 }
 
 .hero-panel__controls {
+  width: min(20rem, 100%);
   min-width: 18rem;
+  justify-self: end;
   display: grid;
   gap: 1rem;
 }
@@ -216,6 +218,7 @@ h1 {
   background: transparent;
   color: var(--muted);
   cursor: pointer;
+  white-space: nowrap;
   text-transform: capitalize;
   transition:
     background-color 160ms ease,
@@ -599,6 +602,14 @@ h1 {
 
   .hero-panel {
     padding: 1.5rem;
+  }
+
+  .hero-panel__row {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-panel__controls {
+    justify-self: stretch;
   }
 
   .hero-metrics,
