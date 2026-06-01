@@ -4,7 +4,7 @@ Static React CV site for Lance Zheng. The site is built with Vite, React, and Ty
 
 ## Features
 
-- Single-page resume site with Version A and Version B profile switching via `?version=a|b`
+- Single-page resume site with Architecture & Delivery and AI-Assisted Engineering profile switching via `?version=a|b`
 - Clean corporate visual system with responsive layout and dark mode toggle
 - Download links for the existing PDF resumes from `public/cv/`
 - Optional analytics script injection driven by Vite environment variables
@@ -106,12 +106,12 @@ kubectl -n lance-cv rollout status deployment/lance-cv
 
 ## Content Maintenance
 
-The markdown files in `cv/` remain the source reference for the written resume content. The live site reads from typed objects in `src/data/cv.ts` so the UI is explicit and easy to tune.
+The markdown files in `cv/` remain the source reference for the written resume content. The live site reads localized dictionaries from `src/i18n/locales/` so the UI and CV content can support multiple languages.
 
 When updating the site:
 
 1. Edit the source markdown in `cv/`.
-2. Mirror the relevant wording changes in `src/data/cv.ts`.
+2. Mirror the relevant wording changes in `src/i18n/locales/en.json` and `src/i18n/locales/zh.json`.
 3. Rebuild with `npm run build`.
 4. Rebuild and push the Docker image.
 5. Update the image tag in `k8s/deployment.yaml` and roll out the deployment.

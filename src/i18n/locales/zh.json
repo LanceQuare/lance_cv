@@ -81,7 +81,8 @@
   },
   "profiles": {
     "a": {
-      "label": "版本 A",
+      "label": "架构与交付",
+      "shortLabel": "架构交付",
       "focus": "解决方案架构、交付领导力与平台执行",
       "name": "Lance Zheng",
       "role": "解决方案架构师 / 高级软件工程师 / 技术负责人",
@@ -89,7 +90,7 @@
       "email": "lance@delazzaro.de",
       "linkedin": "https://www.linkedin.com/in/lance-zheng",
       "summary": "解决方案架构师 / 高级软件工程师 / 技术负责人，拥有 13 年以上设计和交付 Web、移动端与云平台的经验。具备系统架构、技术领导力、CI/CD、平台工程以及可扩展业务应用方面的扎实背景。",
-      "intro": "版本 A 是基础的管理层友好个人资料。它强调架构、技术领导力，以及跨产品、平台和运营工作的务实交付能力，同时避免过度偏向单一趋势。",
+      "intro": "架构与交付履历是基础的管理层友好个人资料。它强调架构、技术领导力，以及跨产品、平台和运营工作的务实交付能力，同时避免过度偏向单一趋势。",
       "positioning": "当目标岗位关注解决方案架构、高级工程领导力，或业务关键系统的广泛全栈所有权时，这种表述更适合。",
       "emphasisTitle": "管理层友好的技术履历",
       "emphasisBody": "面向招聘人员的架构与交付岗位表达方式，把 AI 相关工作流语言放在较轻的位置。",
@@ -234,10 +235,11 @@
           "period": "2003 - 2007"
         }
       ],
-      "pdfPath": "/cv/version_a.pdf"
+      "pdfPath": "/cv/architecture-delivery.pdf"
     },
     "b": {
-      "label": "版本 B",
+      "label": "AI 辅助工程",
+      "shortLabel": "AI 工程",
       "focus": "以 AI 辅助工程工作流为重点的架构领导力",
       "name": "Lance Zheng",
       "role": "解决方案架构师 / 高级软件工程师 / 技术负责人",
@@ -245,7 +247,7 @@
       "email": "lance@delazzaro.de",
       "linkedin": "https://www.linkedin.com/in/lance-zheng",
       "summary": "解决方案架构师 / 高级软件工程师 / 技术负责人，拥有 13 年以上设计和交付 Web、移动端与云平台的经验。具备系统架构、技术领导力、CI/CD、平台工程、可扩展业务应用以及 AI 辅助开发工作流方面的扎实背景。",
-      "intro": "版本 B 保留相同的交付经历，但把 AI 辅助工程、面向仓库的指导和开发者生产力自动化放到叙事前台。",
+      "intro": "AI 辅助工程履历保留相同的交付经历，但把 AI 辅助工程、面向仓库的指导和开发者生产力自动化放到叙事前台。",
       "positioning": "这种表述更适合希望高级工程师同时具备架构领导力、新兴工作流设计、自动化能力，以及围绕 AI 使用建立务实防护栏的团队。",
       "emphasisTitle": "AI 赋能的交付履历",
       "emphasisBody": "面向重视结构化 AI 工作流、可复用工程指导，以及在核心架构能力之外提升开发者生产力的组织。",
@@ -405,7 +407,7 @@
           "period": "2003 - 2007"
         }
       ],
-      "pdfPath": "/cv/version_b.pdf"
+      "pdfPath": "/cv/ai-assisted-engineering.pdf"
     }
   }
 }

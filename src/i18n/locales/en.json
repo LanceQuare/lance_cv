@@ -81,7 +81,8 @@
   },
   "profiles": {
     "a": {
-      "label": "Version A",
+      "label": "Architecture & Delivery",
+      "shortLabel": "Architecture",
       "focus": "Solution architecture, delivery leadership, and platform execution",
       "name": "Lance Zheng",
       "role": "Solution Architect / Senior Software Engineer / Technical Lead",
@@ -89,7 +90,7 @@
       "email": "lance@delazzaro.de",
       "linkedin": "https://www.linkedin.com/in/lance-zheng",
       "summary": "Solution Architect / Senior Software Engineer / Technical Lead with 13+ years of experience designing and delivering web, mobile, and cloud platforms. Strong background in system architecture, technical leadership, CI/CD, platform engineering, and scalable business applications.",
-      "intro": "Version A is the baseline executive profile. It emphasizes architecture, technical leadership, and practical delivery across product, platform, and operations work without leaning too heavily on any single trend.",
+      "intro": "The Architecture & Delivery profile is the baseline executive profile. It emphasizes architecture, technical leadership, and practical delivery across product, platform, and operations work without leaning too heavily on any single trend.",
       "positioning": "This framing works well when the audience is hiring for solution architecture, senior engineering leadership, or broad full-stack ownership across business-critical systems.",
       "emphasisTitle": "Executive technical profile",
       "emphasisBody": "A recruiter-friendly framing for architecture and delivery roles, with the AI-specific workflow language kept in the background.",
@@ -234,10 +235,11 @@
           "period": "2003 - 2007"
         }
       ],
-      "pdfPath": "/cv/version_a.pdf"
+      "pdfPath": "/cv/architecture-delivery.pdf"
     },
     "b": {
-      "label": "Version B",
+      "label": "AI-Assisted Engineering",
+      "shortLabel": "AI Engineering",
       "focus": "Architecture leadership with AI-assisted engineering workflow emphasis",
       "name": "Lance Zheng",
       "role": "Solution Architect / Senior Software Engineer / Technical Lead",
@@ -245,7 +247,7 @@
       "email": "lance@delazzaro.de",
       "linkedin": "https://www.linkedin.com/in/lance-zheng",
       "summary": "Solution Architect / Senior Software Engineer / Technical Lead with 13+ years of experience designing and delivering web, mobile, and cloud platforms. Strong background in system architecture, technical leadership, CI/CD, platform engineering, scalable business applications, and AI-assisted development workflows.",
-      "intro": "Version B keeps the same delivery history but brings AI-assisted engineering, repository-native guidance, and developer productivity automation to the front of the story.",
+      "intro": "The AI-Assisted Engineering profile keeps the same delivery history but brings AI-assisted engineering, repository-native guidance, and developer productivity automation to the front of the story.",
       "positioning": "This framing is better suited to teams that want senior engineers who can combine architecture leadership with emerging workflow design, automation, and practical guardrails around AI usage.",
       "emphasisTitle": "AI-enabled delivery profile",
       "emphasisBody": "A sharper narrative for organizations that value structured AI workflows, reusable engineering guidance, and developer productivity improvements alongside core architecture work.",
@@ -405,7 +407,7 @@
           "period": "2003 - 2007"
         }
       ],
-      "pdfPath": "/cv/version_b.pdf"
+      "pdfPath": "/cv/ai-assisted-engineering.pdf"
     }
   }
 }

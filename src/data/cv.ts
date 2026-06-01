@@ -38,6 +38,7 @@ export interface EducationItem {
 
 export interface CvProfile {
   label: string
+  shortLabel: string
   focus: string
   name: string
   role: string

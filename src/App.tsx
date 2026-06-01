@@ -229,7 +229,11 @@ function App() {
           <div className="hero-panel__controls" aria-label={copy.aria.profileControls}>
             <div className="control-block">
               <p className="control-label">{copy.controls.profileView}</p>
-              <div className="toggle-group" role="group" aria-label={copy.aria.selectCvVersion}>
+              <div
+                className="toggle-group toggle-group--profile"
+                role="group"
+                aria-label={copy.aria.selectCvVersion}
+              >
                 {cvVersions.map((version) => (
                   <button
                     key={version}
@@ -237,7 +241,7 @@ function App() {
                     className={`toggle-button${activeVersion === version ? ' is-active' : ''}`}
                     onClick={() => setActiveVersion(version)}
                   >
-                    {copy.profiles[version].label}
+                    {copy.profiles[version].shortLabel}
                   </button>
                 ))}
               </div>
