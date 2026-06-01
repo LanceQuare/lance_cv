@@ -43,23 +43,23 @@
     "summary": {
       "kicker": "Profile overview",
       "title": "Delivery range with recruiter-ready positioning",
-      "description": "{currentLabel} keeps the same career history but shifts the emphasis of the story. {alternateLabel} is available from the toggle whenever you need a different framing.",
+      "description": "{currentLabel} keeps the same career history but shifts the emphasis of the story. {alternateLabel} offers an alternate framing for a different hiring context.",
       "asideLabel": "Active emphasis"
     },
     "skills": {
       "kicker": "Technical coverage",
       "title": "Modern delivery across product, platform, and operations",
-      "description": "The site keeps the skills taxonomy close to the markdown source so updates stay predictable, while the presentation turns each group into a quick scan for hiring managers."
+      "description": "A practical mix of backend, frontend, mobile, cloud, DevOps, and AI exposure for teams that need senior engineering ownership across the delivery lifecycle."
     },
     "highlights": {
       "kicker": "Selected work",
       "title": "Project highlights distilled from delivery history",
-      "description": "These cards are intentionally curated rather than auto-generated so the public site surfaces the strongest outcomes without making the experience section repetitive."
+      "description": "Selected accomplishments emphasize architecture decisions, platform delivery, automation, scale, and measurable business impact across recent roles."
     },
     "experience": {
       "kicker": "Career path",
       "title": "Chronological experience with platform depth",
-      "description": "The timeline keeps the original chronology intact while giving each role enough breathing room for architecture, scale, and delivery context."
+      "description": "Roles are listed chronologically to show progression from software engineering into solution architecture, technical leadership, and platform delivery."
     },
     "education": {
       "kicker": "Education",
@@ -67,12 +67,12 @@
       "description": "A concise education section keeps the resume focused on delivery history while preserving the academic context recruiters expect."
     },
     "deployment": {
-      "kicker": "Deployment fit",
-      "title": "Static-first delivery for a cluster-friendly resume",
-      "description": "The React implementation is intentionally static so it can be shipped as plain assets inside a small container and promoted cleanly to k3s.",
+      "kicker": "Role fit",
+      "title": "Senior engineer profile for architecture-led delivery",
+      "description": "Best aligned with teams that need a hands-on technical lead who can connect architecture choices with implementation, automation, and reliable execution.",
       "paragraphs": [
-        "The app keeps state in the URL and local storage only, which means there is no server-side session dependency and no runtime database requirement for cluster deployment.",
-        "Static PDF assets are mapped to the active version, so the public site can act as both a live profile and a download point for recruiter workflows."
+        "Works well in roles spanning solution architecture, senior software engineering, technical consulting, platform engineering, and cross-functional delivery leadership.",
+        "Brings a delivery style focused on clear technical direction, maintainable systems, automation, and practical collaboration between product, engineering, and operations."
       ]
     }
   },
